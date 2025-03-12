@@ -1,0 +1,10 @@
+.lead__slogans {
+  list-style-type: none;
+  display: grid;
+  margin: 0;
+  padding: 0;
+  grid-template-columns: repeat(6, 1fr);
+  column-gap: 20px;
+  align-items: center;
+  justify-items: center;
+}

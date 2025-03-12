@@ -1,0 +1,12 @@
+.place__text {
+  display: grid;
+  align-self: flex-start;
+  grid-template-rows: repeat(2, auto);
+  gap: 26px 0;
+}
+
+@media all and (max-width: 700px) {
+  .place__text {
+    padding: 0 16px;
+  }
+}

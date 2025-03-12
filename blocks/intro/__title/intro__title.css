@@ -1,0 +1,16 @@
+.intro__title {
+  margin: 0;
+  color: #2D2D2D;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 0 auto 40px;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 52px;
+  font-family: 'Montserrat';
+}
+
+.intro__title-orange {  
+  color: #FF6600;
+}

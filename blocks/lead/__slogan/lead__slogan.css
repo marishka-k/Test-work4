@@ -1,0 +1,10 @@
+.lead__slogan {
+  margin: 0;
+  color: #808080;
+  display: flex;  
+  text-align: center;  
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  
+}

@@ -1,0 +1,6 @@
+.lead__head {  
+  display: grid;
+  grid-template-columns: 800px 1fr;
+  column-gap: 100px;
+  margin-bottom: 60px;
+}

@@ -1,0 +1,25 @@
+.place {
+  width: 100%;
+  display: grid;
+  grid-template: repeat(2, auto) / repeat(2, auto);
+  gap: 48px 40px;
+}
+
+@media all and (max-width: 1200px) {
+  .place {
+    gap: 48px 32px;
+  }
+}
+
+@media all and (max-width: 1000px) {
+  .place {
+    gap: 48px 28px;
+  }
+}
+
+@media all and (max-width: 700px) {
+  .place {
+    grid-template: repeat(4, auto) / 100%;
+    gap: 32px 0;
+  }
+}

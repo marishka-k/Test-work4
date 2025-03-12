@@ -1,0 +1,13 @@
+.footer__links {
+  display: grid;
+  grid-template: 100% / repeat(5, auto);
+  gap: 19px;
+}
+
+@media all and (max-width: 700px) {
+  .footer__links {
+    gap: 32px;
+    grid-template: repeat(5, auto) / 100%;
+    margin-bottom: 48px;
+  }
+}

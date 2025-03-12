@@ -1,0 +1,43 @@
+.intro__card {
+  background-color: #F6F6F6;
+  background-image: url("../../../images/Background.png");
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  border-radius: 30px;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 30px;
+  margin: 0;
+  padding: 60px 0 0 40px;
+}
+
+.intro__card-title {
+  display: grid;
+  grid-template-columns: min-content 44px;
+  gap: 50px;
+  justify-content: left;
+  align-items: center;
+}
+
+.intro__card-icon {
+ width: 44px;
+ height: 44px;
+}
+
+.intro__card-name {
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 34px;
+}
+
+.intro__card-text {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #808080
+}
+
+.intro__card-image {
+  width: 100%;
+  max-width: 364px;
+}
