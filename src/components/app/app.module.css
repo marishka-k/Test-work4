@@ -1,0 +1,11 @@
+.page {	
+	font-family: Montserrat;
+	background: #FFFFFF;
+	color: #333333;  
+  box-sizing: border-box;
+  max-width: 1366px;
+  min-width: 320px; 
+  height: 100vh;
+  padding: 50px;
+  margin: auto;
+}

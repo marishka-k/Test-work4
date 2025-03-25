@@ -1,0 +1,56 @@
+.user {
+  box-sizing: border-box;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 70px 1fr;
+  box-shadow: 0px 0px 10px 0px #0000001a;
+  border-radius: 10px;
+}
+.user:hover {
+  border-radius: 10px;
+  border: 1px solid #91cf91;
+}
+
+.avatar {
+  width: 100%;
+  height: 70px;
+  border-radius: 10px 0 0 10px;
+  border-right: 1px solid #777777;
+  display: flex;
+  justify-content: center;
+  overflow-x: hidden;
+}
+
+.avatar_image {
+  height: 70px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 15px;
+  box-sizing: border-box;
+  border-radius: 0 10px 10px 0 ;
+}
+.info_active {
+  background: #ccf1cc;
+  pointer-events: none;
+  cursor: default;
+}
+
+.name {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 17px;
+  margin: 0 0 5px 0;
+  padding: 0;
+}
+
+.email {  
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  margin: 0;
+  padding: 0;
+}
