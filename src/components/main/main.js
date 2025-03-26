@@ -1,7 +1,7 @@
 import Home from "../home/home";
 import styles from './main.module.css'
 
-function Main({ isLoading, activeUser, setActiveUser, arrUsers, activePost, setActivePost, arrPosts}) {
+function Main({ isLoading, activeUser, setActiveUser, arrUsers, activePost, setActivePost, arrPosts, arrComments}) {
   return (
     <main className={styles.main}>
       <Home
@@ -12,6 +12,7 @@ function Main({ isLoading, activeUser, setActiveUser, arrUsers, activePost, setA
         setActivePost={setActivePost}
         arrUsers={arrUsers}
         arrPosts={arrPosts}
+        arrComments={arrComments}
       />
     </main>
   );

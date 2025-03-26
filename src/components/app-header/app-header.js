@@ -4,9 +4,7 @@ export default function Header () {
     
       return (
         <header className={styles.header}>
-          <p className={styles.user}>
-            Пользователь
-          </p>  
+          <h1 className={styles.title} >Сообщения</h1>
             
         </header>
       );
